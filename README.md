@@ -20,3 +20,17 @@ This project is a conversational assistant built using _LangGraph_ and _LangChai
 3. The code is tested on _Google Colab_. In the Load & Prepare Document section, an if condition handles whether the file is loaded from _GitHub or Google Drive._
 
 4. A screenshot of the full execution is included to show example questions and the model’s responses.
+
+
+My_LangGraph_Company_Revenue/
+│── data/
+│   └── company_financials_quarterly.csv     # Input dataset (25 years of financial data)
+│
+│── notebooks/
+│   └── LangGraph_Company_Revenue_Model.ipynb # Main Jupyter Notebook
+│
+│── screenshots/
+│   └── execution_example.png                 # Screenshot of chatbot Q&A session
+│
+│── README.md                                 # Project documentation
+
