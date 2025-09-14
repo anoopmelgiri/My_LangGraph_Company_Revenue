@@ -3,10 +3,10 @@
 This project is a conversational assistant built using _LangGraph_ and _LangChain_. It enables users to interact with structured data (CSV files) through natural, multi-turn dialogue while preserving context across queries. The design is modular - by simply replacing the CSV file, the assistant can be adapted to answer questions in different domains, with no pre-training required.
 
 
-**Setup Insrtuctions -**
+**Setup Instructions -**
 1. Clone the repository and open the notebook in Google Colab or Jupyter Notebook.
 2. Provide your OpenAI API key when prompted.
-3. Ensure the input CSV (company_financials_quarterly.csv) is available: During execution select: Option 1 is for GitHub repo and 2 is for Google Drive
+3. Ensure the input CSV (company_financials_quarterly.csv) is available: During execution select: Option 1 for GitHub repo and 2 is for Google Drive
    
 **Architecture & Reasoning Flow -**
 1. **_Input_** - User query (multi-turn conversation supported).
@@ -21,11 +21,6 @@ This project is a conversational assistant built using _LangGraph_ and _LangChai
 2. ChatOpenAI (model - _gpt-3.5-turbo_)
 3. RecursiveCharacterTextSplitter (for chunking)
 4. FAISS ((Facebook AI Similarity Search) (as Vector DB)
-
-
-2. The input dataset is a CSV file containing 25 years of quarterly company financials.
-   Columns include: _Quarter, Revenue_MillionUSD, Expenses_MillionUSD, Profit_MillionUSD, Growth_Rate, and Employees._
-   You can replace this file with any other CSV - the pipeline will work the same way.
 
 
 **Files in the project -**
