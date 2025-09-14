@@ -22,7 +22,7 @@ This project is a conversational assistant built using _LangGraph_ and _LangChai
 4. A screenshot of the full execution is included to show example questions and the model’s responses.
 
 **Files in the project -**
-company_financials_quarterly.csv – Input dataset containing 25 years of quarterly financial data.
-LangGraph_Company_Revenue_Model.ipynb – Main Google Colab notebook with the conversational assistant implementation.
-execution_snapshot.png – Screenshot showing an example Q&A session with the chatbot.
-README.md – Project documentation and usage instructions.
+1. company_financials_quarterly.csv – Input dataset containing 25 years of quarterly financial data.
+2. LangGraph_Company_Revenue_Model.ipynb – Main Google Colab notebook with the conversational assistant implementation.
+3. execution_snapshot.png – Screenshot showing an example Q&A session with the chatbot.
+4. README.md – Project documentation and usage instructions.
