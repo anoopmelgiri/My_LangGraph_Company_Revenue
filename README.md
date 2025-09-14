@@ -20,7 +20,7 @@ This project is a conversational assistant built using _LangGraph_ and _LangChai
 1. Langchain and Langgraph libraries.
 2. ChatOpenAI (model - _gpt-3.5-turbo_)
 3. RecursiveCharacterTextSplitter (for chunking)
-4. FAISS ((Facebook AI Similarity Search) (as Vector DB)
+4. FAISS (Facebook AI Similarity Search) as Vector Database
 
 
 **Files in the project -**
@@ -30,4 +30,4 @@ This project is a conversational assistant built using _LangGraph_ and _LangChai
 4. README.md - Project documentation and usage instructions.
 
 **Note-**
-The code is tested on _Google Colab_. In the Load & Prepare Document section, an if condition handles whether the file is loaded from _GitHub or Google Drive._
+The code is tested on _Google Colab_. In the Load & Prepare Document section, an **if** condition handles whether the file is loaded from _GitHub or Google Drive._
