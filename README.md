@@ -9,11 +9,11 @@ This project is a conversational assistant built using _LangGraph_ and _LangChai
 3. Ensure the input CSV (company_financials_quarterly.csv) is available: Option 1 is for GitHub repo and 2 is for Google Drive
    
 **Architecture & Reasoning Flow**
-**_Input_** - User query (multi-turn conversation supported).
-**_Intent Processing_** - Query passed to LangGraph for orchestration.
-**_Document Handling_** - CSV data chunked using RecursiveCharacterTextSplitter.
-**_Embeddings & Vector Store_** - FAISS used for semantic search over CSV content.
-**_Reasoning Flow_** – User Question → Retrieve relevant chunks → LLM reasoning via ChatOpenAI (gpt-3.5-turbo) → Response generated.
+1. **_Input_** - User query (multi-turn conversation supported).
+2. **_Intent Processing_** - Query passed to LangGraph for orchestration.
+3. **_Document Handling_** - CSV data chunked using RecursiveCharacterTextSplitter.
+4. **_Embeddings & Vector Store_** - FAISS used for semantic search over CSV content.
+5. **_Reasoning Flow_** – User Question → Retrieve relevant chunks → LLM reasoning via ChatOpenAI (gpt-3.5-turbo) → Response generated.
 
 
 **Tools & Libraries used -**
