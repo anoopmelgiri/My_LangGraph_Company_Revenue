@@ -23,7 +23,7 @@ This project is a conversational assistant built using _LangGraph_ and _LangChai
 
 **Files in the project -**
 
-My_LangGraph_Company_Revenue/
+My_LangGraph_Company_Revenue
   ─ company_financials_quarterly.csv      # Input dataset (25 years of financial data)
   ─ LangGraph_Company_Revenue_Model.ipynb # Main Jupyter Notebook
   ─ execution_example.png                 # Screenshot of chatbot Q&A session
