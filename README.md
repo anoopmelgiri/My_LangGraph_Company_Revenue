@@ -2,11 +2,13 @@
 **Summary -**
 This project is a conversational assistant built using _LangGraph_ and _LangChain_. It enables users to interact with structured data (CSV files) through natural, multi-turn dialogue while preserving context across queries. The design is modular - by simply replacing the CSV file, the assistant can be adapted to answer questions in different domains, with no pre-training required.
 
+
 **Tools & Libraries used -**
 1. Langchain and Langgraph libraries.
 2. ChatOpenAI by OpenAI, model - _gpt-3.5-turbo_
 3. For Chunking - _RecursiveCharacterTextSplitter_
 4. For Embeddings and Vector DB, _FAISS_ (Facebook AI Similarity Search)
+
 
 **Key steps to run -**
 1. Provide your _OpenAI API key_ when prompted in the notebook.
